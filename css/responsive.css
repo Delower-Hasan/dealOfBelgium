@@ -1,0 +1,260 @@
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .deal-img img {
+    width: 100%;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .deal-wrapper {
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+}
+.bottom-desc {
+  margin-left: -110px;
+  padding-left: .5rem;
+}
+a.deal-title {
+  padding-top: 5px;
+  display: block;
+}
+a.deal-title h2 {
+  font-size: 15px;
+  margin: 5px 0 3px;
+} 
+.vote-items {
+  padding: 3px 7px;
+} 
+    
+span.plus i {
+  margin-left: 1px;
+  font-size: 14px;
+}
+
+span.minus i {
+  margin-right: 3px;
+}
+
+.vote-items-wrap {
+  position: absolute;
+  left: 18px;
+  width: 91%;
+  top: 11px;
+}
+.deal-img img {
+  width: 70px;
+}
+.deal-description {
+  padding-right:0;
+}
+span.bookmark {
+  font-size: 17px;
+}
+
+.footer-action-slot-right a.comments {
+  font-size: 14px;
+}
+.footer-action-slot-right a.comments i {
+  font-size: 17px;
+
+}
+a.dealbtn {
+  padding: 6px 18px;
+  font-size: 14px;
+}
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .deal-wrapper {
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+}
+.bottom-desc {
+  margin-top: 14px;
+  margin-bottom: 30px;
+  margin-left: -110px;
+}
+a.deal-title {
+  padding-top: 5px;
+  display: block;
+}
+a.deal-title h2 {
+  font-size: 15px;
+  margin: 5px 0 3px;
+} 
+.vote-items {
+  padding: 3px 7px;
+} 
+    
+span.plus i {
+  margin-left: 1px;
+  font-size: 14px;
+}
+
+span.minus i {
+  margin-right: 3px;
+}
+
+.vote-items-wrap {
+  position: absolute;
+  left: 18px;
+  width: 91%;
+  top: 11px;
+}
+.deal-img img {
+  width: 100%;
+}
+.deal-description {
+  padding-right:0;
+}
+span.bookmark {
+  font-size: 17px;
+}
+
+.footer-action-slot-right a.comments {
+  font-size: 14px;
+}
+.footer-action-slot-right a.comments i {
+  font-size: 17px;
+
+}
+a.dealbtn {
+  padding: 6px 18px;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.deal-description p {
+  margin: 6px 0 6px;
+  font-size: 14px;
+}
+.deal-description p>a {
+  font-size: 14px;
+}
+
+} 
+
+@media all and (min-width:481px) and (max-width: 574px) {
+   
+  .bottom-desc {
+    margin-top: 7px;
+    margin-bottom: 30px;
+    margin-left: -120px;
+  }
+.footer-action-slot-right a.comments {
+  font-size: 13px;
+}
+span.bookmark {
+  font-size: 16px;
+}
+.thread-price-wrap {
+  margin-top: -4px;
+}
+.thread-price-wrap span {
+  margin: 0 3px;
+}
+span.thread-price-new {
+  font-size: 15px;
+}
+span.thread-price-old {
+  font-size: 15px;
+}
+span.thread-price-percentage {
+  font-size: 15px;
+}
+.thread-price-wrap {
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+  }
+  
+  @media all and (min-width:321px) and (max-width: 480px) {
+    a.deal-title h2 {
+      font-size: 13px;
+  }
+  .footer-action-slot-right a.comments {
+    font-size: 12px;
+  }
+  span.bookmark {
+    font-size: 16px;
+  }
+  .thread-price-wrap {
+    margin-top: -4px;
+  }
+  .thread-price-wrap span {
+    margin: 0 3px;
+  }
+  span.thread-price-new {
+    font-size: 12px;
+}
+  span.thread-price-old {
+    font-size: 12px;
+  }
+  span.thread-price-percentage {
+    font-size: 12px;
+  }
+  .deal-description p {
+    margin: 0px 0 10px;
+}
+.marchant-wrap {
+  padding-top: 5px;
+}
+.bottom-desc {
+  margin-top: 7px;
+  margin-left: -77px;
+}
+.thread-price-wrap {
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+  }
+  
+  @media all and (min-width:0px) and (max-width: 320px) {
+    .bottom-desc {
+      margin-top: 7px;
+      margin-left: -77px;
+    }
+    a.deal-title h2 {
+      font-size: 13px;
+  }
+  .footer-action-slot-right a.comments {
+    font-size: 12px;
+  }
+  span.bookmark {
+    font-size: 16px;
+  }
+  .thread-price-wrap {
+    margin-top: -4px;
+  }
+  .thread-price-wrap span {
+    margin: 0 3px;
+  }
+  span.thread-price-new {
+    font-size: 12px;
+}
+  span.thread-price-old {
+    font-size: 12px;
+  }
+  span.thread-price-percentage {
+    font-size: 12px;
+  }
+  .deal-description p {
+    margin: 0px 0 10px;
+}
+.marchant-wrap {
+  padding-top: 5px;
+}
+.thread-price-wrap {
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+  }
