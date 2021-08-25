@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/datepicker.material.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    
     <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -267,13 +268,14 @@
 
                 <div class="mb-25">
                   <label for="Description" class="form-label usual">Description</label>
-                  <div id="editor"></div>
+                    <textarea name="" class="form-control"  id="editor" cols="30" rows="10"></textarea>
                 </div>
                 <div class="mb-25 group-tags">
-                  <label for="Description" class="form-label usual">Groups</label>
+                  <input type="hidden" value="" class="cat-tag-value">
+                  <label for="" class="form-label usual">Groups</label>
                   <p>What is the main category of your deal?</p>
+                  
                   <ul class="catagory-tags">
-                   
                     <li>High Tech</li>
                     <li>Auto-Moto</li>
                     <li>Consoles & Jues Videos</li>
@@ -287,21 +289,17 @@
 
                 <div class="start-date mb-25">
                   <h4>START DATE IF THE DEAL HAS NOT STARTED</h4>
-                  <div class="ui calendar" id="startDate">
                     <div class="ui input left icon input-group">
-                      <input type="text" class="form-control" placeholder="Start Date">
-                      <span class="input-group-text"><i class="calendar icon"></i></span>
+                      <input type="text" class="form-control" id="startDate" placeholder="Start Date">
+                      <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
                     </div>
-                  </div>
                 </div>
                 <div class="start-date mb-25">
                   <h4>EXPIRES ON</h4>
-                  <div class="ui calendar " id="endDate">
-                    <div class="ui input left icon input-group">
-                      <input type="text" class="form-control"  placeholder="Start Date">
-                      <span class="input-group-text"><i class="calendar icon"></i></span>
+                    <div class=" input-group">
+                      <input type="text" class="form-control" id="endDate" placeholder="Start Date">
+                      <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
                     </div>
-                  </div>
                 </div>
                 <div class="dispatch-country">
                   <h4>Country of Dispatch</h4>
@@ -325,7 +323,7 @@
               <div class="col-md-3 col-sm-2 col-3">
                 <div class="deal-img">
                   <div class="setting"></div>
-                  <div class="setting image_picker">
+                  <div class="setting image_picker ">
                     <h2>Image</h2>
                     <div class="settings_wrap">
                       <label class="drop_target">
@@ -393,11 +391,11 @@
                       </span>
                     </div> -->
                     
-                    <span class="metaRibbon"><img height="22" width="20" src="./images/Fire.svg" alt=""></span>
+                    <!-- <span class="metaRibbon"><img height="22" width="20" src="./images/Fire.svg" alt=""></span>
                     
                     <span class="hide--toW3">
                       <font style="vertical-align: inherit;">49 min ago</font>
-                    </span>
+                    </span> -->
                     
                  
                   </div>
@@ -409,8 +407,8 @@
                   <span class="thread-price-percentage dpost"></span>
                   <span class="thread-price-free ship-post"><i class="fas fa-truck"></i> Free</span>
                   <div class="marchant-wrap ">
-                    <span class="marchant-text">Bons plans </span>
-                    <a href="#" class="marchant">Hubo</a>
+                   
+                    <a href="#" class="marchant dpost">Hubo</a>
                   </div>
                 </div>
                   <div class="bottom-desc">
@@ -449,7 +447,7 @@
 
 <!-- Top footer -area -->
 
-<footer >
+<footer class="footer notHome" >
   <div class="footer-middle">
     <div class="container-fluid">
       <div class="row">
@@ -551,14 +549,14 @@
 
   <!-- Js heres -->
 
+
    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap5.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/select2.min.js"></script>
-    <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+    <script src="js/datepicker.js"></script>
     <script src="https://cdn.ckeditor.com/ckeditor5/29.1.0/classic/ckeditor.js"></script>
-    
     <script src="js/script.js"></script>
 
 </body>
