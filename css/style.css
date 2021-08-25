@@ -237,6 +237,8 @@ a.dropdown-item.cat i {
 a.dropdown-item.cat {
   display: inline-block;
   margin-bottom: 10px;
+  font-size: 16px;
+  padding-left: 0;
 }
 ul.dropdown-menu.show {
   position: absolute;
@@ -244,6 +246,7 @@ ul.dropdown-menu.show {
   background: #35373b;
   overflow-y: scroll;
   overflow-x: hidden;
+  padding: 15px;
 }
 
 a.dropdown-item:hover {
@@ -838,7 +841,6 @@ a.deal-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
 }
 /* Vote */
 .vote-items {
@@ -999,7 +1001,7 @@ a.dealbtn.exp {
 
 
 
-
+/* Deal -expired */
 
 
 span.exp-date {
@@ -1155,7 +1157,7 @@ ul.deal-catagory li a {
   font-size: 16px;
 }
 
-
+/* Footer section -area */
 /* top footer */
 .top-footer-wrapper {
   display: flex;
@@ -1684,10 +1686,8 @@ button.dealbtn {
 
 /* css for js */
 .setting {
-  background: #fff;
-  margin: 0 auto 3px;
-  padding: 12px;
-  width: 300px;
+
+  width: 100px;
 }
 .setting h2 {
   color: #999;
@@ -1889,4 +1889,7 @@ ul.catagory-tags li:hover{
   transition: .2s;
   color:#fff !important;
   background-color:#03a5c1;
+}
+.datepicker {
+    width: 88%;
 }

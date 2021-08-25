@@ -33,19 +33,27 @@ jQuery(document).ready(function () {
   
   });
   let tagToggle = true;
+  $(".marchant.dpost").hide()
   $(".catagory-tags li").click(function(){
     $(".catagory-tags li").removeClass("active-catagory")
+    
+   
     $(this).addClass("active-catagory");
     if(tagToggle){
       $(".catagory-tags li").hide();
       $(this).toggle(10);
+      var catValue = $(this).html();
+      $(".marchant.dpost").html(catValue)
+      $('.cat-tag-value').val(catValue)
+      $(".marchant.dpost").show()
       tagToggle= false
     }else{
       $(".catagory-tags li").show();
       $(this).toggle(10);
+      $('.cat-tag-value').val("")
+      $(".marchant.dpost").hide()
       tagToggle= true;
     }
-    
     
   });
 
@@ -231,8 +239,9 @@ $(".act2-active").click(function(){
 // });
 
 // Date picker
-$('#startDate').calendar();
-$('#endDate').calendar();
+var start = new Datepicker('#startDate');
+var end = new Datepicker('#endDate');
+
 
 // Select Country
 $(document).ready(function() {
@@ -283,17 +292,17 @@ $("#USUAL").keyup(function(){
 
 $("#deal-title").keyup(function(){
   var title = $("#deal-title").val()
-  console.log(title.length)
   if(title.length <= 140){
     $("#deal-post-title").html(title);
     var restText = 140-title.length
      $("#deal-title-lenth").html(restText);
   }
  }); 
- console.log($("#editor").html())
-// $(".ck.ck-content").change(function(){
-//   var value = $(".ck.ck-content").val()
-//   console.log($(".ck.ck-content"))
+
+
+// $("#editor").keyup(function(){
+//   var value = $("#editor").html()
+//   console.log(value)
 //   $("#deal-post-desc").html(value);
 //  }); 
 
